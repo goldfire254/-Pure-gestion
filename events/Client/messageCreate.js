@@ -1,5 +1,4 @@
 const { EmbedBuilder, Message, Client, PermissionsBitField, InteractionCollector } = require("discord.js");
-const config = require("../../config.json")
 
 module.exports = {
     name: "messageCreate",
