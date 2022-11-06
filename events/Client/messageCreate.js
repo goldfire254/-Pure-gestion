@@ -1,7 +1,5 @@
 const { EmbedBuilder, Message, Client, PermissionsBitField, InteractionCollector } = require("discord.js");
 const config = require("../../config.json")
-const { QuickDB } = require('quick.db');
-const db = new QuickDB();
 
 module.exports = {
     name: "messageCreate",
